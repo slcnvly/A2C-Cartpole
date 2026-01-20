@@ -13,7 +13,7 @@ The primary motivation for A2C is to solve the High Variance problem of the REIN
   - A2C (TD Learning): Updates using the Advantage function.
   - Solution: It introduces a Critic (V(s)) to serve as a baseline. It evaluates actions not by absolute score, but by how much better they are compared to the                 average expectation. A(s, a) = r + gamma * V(s') - V(s)
   - Visual Comparison: As shown in the graph below, A2C shows a smoother and more stable learning curve compared to the fluctuating performance of REINFORCE.
-   ![Learning Curve Comparison]([a2c_score.png], [reinforce_score.png])
+   ![Learning Curve Comparison]([a2c_score.png][reinforce_score.png])
    
 ## Model Architecture: Shared Network
 This implementation uses a Shared Network Architecture where both the Actor and Critic share the lower layers (Feature Extractor) but have separate output heads.
