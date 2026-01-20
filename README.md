@@ -19,7 +19,8 @@ The primary motivation for A2C is to solve the High Variance problem of the REIN
   - Visual Comparison: As shown in the graph below, A2C seems not to be smoother or more stable learning curve compared to the fluctuating performance of REINFORCE...
    ![Learning Curve Comparison](./a2c_score.png)![Learning_Curve Comparison](./reinforce_score.png)
 
-### Analysis of Results: Visually, the score fluctuation (raw score variance) of A2C appears similar to REINFORCE due to the stochastic nature of the 1-step update.
+### Analysis of Results: 
+Visually, the score fluctuation (raw score variance) of A2C appears similar to REINFORCE due to the stochastic nature of the 1-step update.
 
 However, the reduction in Gradient Variance is evident in the Sample Efficiency.
 
